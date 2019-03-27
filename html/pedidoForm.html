@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Nuevo Pedido</h1>
+        <p>Rellenar el siguiente formulario para generar un pedido.</p>
+        <hr>
+
+        <label for="nombre"><b>Nombre</b></label>
+        <input id="nombre" type="text" placeholder="Ingresar nombre" name="nombre" required>
+        <p id="nombreRequired"></p>
+
+        <label for="precio"><b>Precio</b></label>
+        <input id="precio" type="number" placeholder="Ingresar precio" name="precio" required>
+        <p id="precioRequired"></p>
+        
+        <label for="descuento"><b>Descuento</b></label>
+        <input id="descuento" type="number" placeholder="Ingresar descuento" name="descuento" required>
+        <p id="descuentoRequired"></p>
+
+        <hr>
+        <button id="registerbtn" class="registerbtn">Register</button>
+        <label id="result"></label>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
